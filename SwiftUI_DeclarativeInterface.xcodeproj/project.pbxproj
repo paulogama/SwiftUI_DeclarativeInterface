@@ -13,6 +13,9 @@
 		C9AD502723739F3A00F898CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AD502623739F3A00F898CF /* Assets.xcassets */; };
 		C9AD502A23739F3A00F898CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AD502923739F3A00F898CF /* Preview Assets.xcassets */; };
 		C9AD502D23739F3A00F898CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AD502B23739F3A00F898CF /* LaunchScreen.storyboard */; };
+		C9AD503523739F6C00F898CF /* CocoaDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD503423739F6C00F898CF /* CocoaDetail.swift */; };
+		C9AD50372373A02E00F898CF /* CocoaTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD50362373A02E00F898CF /* CocoaTalk.swift */; };
+		C9AD50392373A06B00F898CF /* CocoaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD50382373A06B00F898CF /* CocoaCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C9AD502923739F3A00F898CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C9AD502C23739F3A00F898CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9AD502E23739F3A00F898CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AD503423739F6C00F898CF /* CocoaDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaDetail.swift; sourceTree = "<group>"; };
+		C9AD50362373A02E00F898CF /* CocoaTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTalk.swift; sourceTree = "<group>"; };
+		C9AD50382373A06B00F898CF /* CocoaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C9AD502023739F3700F898CF /* AppDelegate.swift */,
 				C9AD502223739F3700F898CF /* SceneDelegate.swift */,
 				C9AD502423739F3700F898CF /* ContentView.swift */,
+				C9AD50382373A06B00F898CF /* CocoaCell.swift */,
+				C9AD503423739F6C00F898CF /* CocoaDetail.swift */,
+				C9AD50362373A02E00F898CF /* CocoaTalk.swift */,
 				C9AD502623739F3A00F898CF /* Assets.xcassets */,
 				C9AD502B23739F3A00F898CF /* LaunchScreen.storyboard */,
 				C9AD502E23739F3A00F898CF /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9AD503523739F6C00F898CF /* CocoaDetail.swift in Sources */,
 				C9AD502123739F3700F898CF /* AppDelegate.swift in Sources */,
 				C9AD502323739F3700F898CF /* SceneDelegate.swift in Sources */,
+				C9AD50392373A06B00F898CF /* CocoaCell.swift in Sources */,
 				C9AD502523739F3700F898CF /* ContentView.swift in Sources */,
+				C9AD50372373A02E00F898CF /* CocoaTalk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

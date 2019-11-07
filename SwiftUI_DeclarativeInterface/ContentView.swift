@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    let cocoaTalks = CocoaTalk.all()
+
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            List(cocoaTalks, id: \.id) { cocoaTalk in
+                NavigationLink(destination: CocoaDetail(cocoaTalk: cocoaTalk)) {
+                    CocoaCell(cocoaTalk: cocoaTalk)
+                }
+            }
+        .navigationBarTitle("Cocoa Talks Recife")
+        }
     }
 }
 
